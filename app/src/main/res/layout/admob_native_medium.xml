@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ad_unit"
+    android:layout_width="fill_parent"
+    android:layout_height="320.0dip"
+    android:background="@drawable/ad_border_charge"
+    android:orientation="vertical"
+    android:padding="1.0dip">
+
+    <com.google.android.gms.ads.formats.UnifiedNativeAdView
+        android:id="@+id/native_ad_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:id="@+id/background"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <com.google.android.gms.ads.formats.MediaView
+                android:id="@+id/media_view"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_above="@id/top_parent"
+                android:layout_alignParentTop="true"
+                android:gravity="center" />
+
+            <RelativeLayout
+                android:id="@+id/top_parent"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/cta_parent"
+                android:layout_marginTop="8.0dip">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/icon"
+                    android:layout_width="36.0dip"
+                    android:layout_height="36.0dip"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="12.0dip"
+                    app:riv_corner_radius="5.0dip" />
+
+                <LinearLayout
+                    android:id="@+id/ad_choices_container"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:gravity="end"
+                    android:orientation="horizontal" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10.0dip"
+                    android:layout_toLeftOf="@id/ad_choices_container"
+                    android:layout_toRightOf="@id/icon"
+                    android:orientation="vertical"
+                    android:paddingLeft="6.0dip">
+
+                    <TextView
+                        android:id="@+id/primary"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:ellipsize="end"
+
+                        android:lines="1"
+                        android:textColor="@color/white"
+                        android:textSize="16.0sp" />
+
+                    <TextView
+                        android:id="@+id/secondary"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:ellipsize="end"
+
+                        android:maxLines="2"
+                        android:textColor="@color/text_second"
+                        android:textSize="12.0sp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/cta_parent"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="vertical"
+                android:padding="8.0dip">
+
+                <LinearLayout
+                    android:id="@+id/third_line"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/tertiary"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+
+                        android:maxLines="2"
+                        android:textColor="@color/white"
+                        android:textSize="12.0sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16.0dip"
+                    android:layout_marginRight="16.0dip">
+
+                    <TextView
+                        android:id="@+id/cta"
+                        android:layout_width="fill_parent"
+                        android:layout_height="44.0dip"
+                        android:background="@drawable/install_bg"
+
+                        android:gravity="center"
+                        android:paddingLeft="16.0dip"
+                        android:paddingRight="16.0dip"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="14.0sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </com.google.android.gms.ads.formats.UnifiedNativeAdView>
+</LinearLayout>

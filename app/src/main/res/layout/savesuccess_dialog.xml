@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@+id/main" android:background="@color/color_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/_2sdp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@+id/frameLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <RelativeLayout android:id="@+id/rv_lay" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </RelativeLayout>
+
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_2sdp">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <View android:background="@color/color_bar" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <TextView android:textSize="@dimen/_15sdp" android:textColor="@color/titlecolor" android:id="@+id/txterorr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/_3sdp" android:text="Thumbnail Saved Successfully." />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/_11sdp" android:textColor="@color/titlecolor" android:gravity="center" android:id="@+id/txt_free" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_10sdp" android:layout_marginTop="@dimen/_2sdp" android:layout_marginRight="@dimen/_10sdp" android:text="We have noticed that you have not saved your work. Are you sure you want to leave this page?." />
+            <LinearLayout android:gravity="center|left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/_40sdp" android:layout_marginLeft="20.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="20.0dip">
+                <Button android:textSize="@dimen/_12sdp" android:textColor="@color/white" android:id="@+id/btn_yes" android:background="@drawable/rounded_button_settings" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/_30sdp" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="Leave" android:layout_weight="1.0" android:layout_toLeftOf="@id/ok" />
+                <Button android:textSize="@dimen/_12sdp" android:textColor="@color/white" android:id="@+id/btn_no" android:background="@drawable/rounded_button_ok" android:layout_width="fill_parent" android:layout_height="@dimen/_30sdp" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="View Thumbnail" android:layout_weight="1.0" android:layout_alignParentRight="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dip" app:cardBackgroundColor="@color/color_bar"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/imageView" android:layout_width="@dimen/_100sdp" android:layout_height="@dimen/_150sdp" android:scaleType="centerCrop" />
+        <LinearLayout android:gravity="top" android:orientation="vertical" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="2.0dip" android:layout_toRightOf="@id/imageView">
+            <TextView android:textAppearance="@style/TextAppearance.AppCompat.Body1" android:id="@+id/nameTextView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Item" android:maxLines="1" />
+            <TextView android:textAppearance="@style/TextAppearance.AppCompat.Caption" android:id="@+id/devTextView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Google Inc." android:maxLines="1" />
+            <TextView android:textAppearance="@style/TextAppearance.AppCompat.Body1" android:textSize="12.0sp" android:gravity="center" android:id="@+id/ratingTextView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="4,5" android:drawablePadding="2.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

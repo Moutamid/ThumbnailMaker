@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/color_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.qintong.library.InsLoadingView android:id="@+id/loading_view" android:layout_width="120.0dip" android:layout_height="120.0dip" android:src="@mipmap/ic_launcher_round" android:layout_centerInParent="true" app:end_color="#ffc60e0b" app:start_color="@color/colorAccent" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/rv_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true" />
+</RelativeLayout>

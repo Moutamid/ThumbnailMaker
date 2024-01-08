@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@+id/cv_image" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:foreground="?selectableItemBackground" app:cardBackgroundColor="@color/white" app:cardElevation="3.0dip" app:cardUseCompatPadding="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="vertical" android:id="@+id/lay" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/_5sdp">
+        <ImageView android:id="@+id/item_image" android:layout_width="@dimen/_80sdp" android:layout_height="@dimen/_80sdp" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+        <RelativeLayout android:gravity="center" android:id="@+id/imgDownload" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:background="@drawable/ic_download_sticker" android:visibility="visible" android:layout_width="30.0dip" android:layout_height="30.0dip" android:scaleType="center" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <ProgressBar android:theme="@style/Progressbar.White" android:id="@+id/downloadProgress" android:visibility="gone" android:layout_width="@dimen/_30sdp" android:layout_height="@dimen/_30sdp" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

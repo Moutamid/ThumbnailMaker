@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@+id/main" android:background="@color/color_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/_2sdp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_10sdp">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/_16sdp" android:textColor="@color/color_add_btn" android:id="@+id/txtTitle" android:padding="@dimen/_10sdp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/_3sdp" android:text="best practices" android:textAllCaps="true" />
+                <View android:background="@color/color_bar" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/_11sdp" android:textColor="@color/titlecolor" android:id="@+id/permission_des" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_5sdp" android:layout_marginTop="@dimen/_10sdp" android:layout_marginRight="@dimen/_5sdp" android:text="@string/strick_info" />
+            <LinearLayout android:gravity="center|left" android:orientation="horizontal" android:background="@color/transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/_40sdp" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_camera" />
+                <TextView android:textSize="@dimen/_14sdp" android:textColor="@color/titlecolor" android:gravity="center" android:id="@+id/camera_prtext" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/_10sdp" android:text="@string/camera" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center|left" android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/_40sdp" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_folder" />
+                <TextView android:textSize="@dimen/_14sdp" android:textColor="@color/titlecolor" android:gravity="center" android:id="@+id/storage_prtext" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/_10sdp" android:text="@string/storage" />
+            </LinearLayout>
+            <TextView android:textSize="12.0sp" android:textColor="@color/titlecolor" android:id="@+id/permission_des1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="15.0dip" android:text="if your saved thumbnail is larger then 2MB then you need to compress your thumbnail in order to upload." />
+            <TextView android:textSize="12.0sp" android:textColor="@color/titlecolor" android:id="@+id/batter" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="5.0dip">
+                <Button android:textSize="@dimen/_11sdp" android:textColor="@color/white" android:id="@+id/ok" android:background="@drawable/rounded_button_ok" android:layout_width="fill_parent" android:layout_height="@dimen/_40sdp" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:text="Cancel" android:layout_weight="1.0" android:layout_alignParentRight="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

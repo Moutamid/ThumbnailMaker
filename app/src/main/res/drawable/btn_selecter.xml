@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list android:layout_width="fill_parent" android:layout_height="1.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="-1.0dip" android:top="-1.0dip" android:right="-1.0dip" android:bottom="1.0dip">
+        <shape android:shape="rectangle">
+            <gradient android:startColor="#fffea870" android:endColor="#fff28684" android:angle="0.0" />
+            <corners android:radius="10.0dip" />
+        </shape>
+    </item>
+</layer-list>

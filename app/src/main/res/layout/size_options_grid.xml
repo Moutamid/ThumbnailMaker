@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:background="#ffedf0f9" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/text_ratio" android:padding="25.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ratio_selection" android:layout_centerVertical="true" android:textAllCaps="true" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn01" android:tag="1:1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img01" android:background="@drawable/ratio_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                </LinearLayout>
+
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn02" android:tag="16:9" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img02" android:background="@drawable/ratio_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn03" android:tag="9:16" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img03" android:background="@drawable/ratio_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip">
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn04" android:tag="4:3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img04" android:background="@drawable/ratio_4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn05" android:tag="3:4" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img05" android:background="@drawable/ratio_5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn06" android:tag="2:3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img06" android:background="@drawable/ratio_6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/text_ratio" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:text="@string/wattapad" android:layout_centerVertical="true" android:textAllCaps="true" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btnwattpad" android:tag="512:800" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img_watta" android:background="@drawable/w_tta" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/watt" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:tag="940:788" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <LinearLayout android:orientation="vertical" android:tag="810:450" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            </LinearLayout>
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/text_ratio" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:text="@string/facebook" android:layout_centerVertical="true" android:textAllCaps="true" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn1" android:tag="851:315" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img1" android:background="@drawable/fb_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/fc" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn2" android:tag="940:788" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img2" android:background="@drawable/fb_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/fp" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn3" android:tag="810:450" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img3" android:background="@drawable/fb_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/fai" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn4" android:tag="1200:627" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img4" android:background="@drawable/fb_4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/fadi" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn5" android:tag="720:720" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img5" android:background="@drawable/fb_5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/fapi" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn6" android:tag="820:428" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img6" android:background="@drawable/fb_6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/fagcp" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/text_ratio" android:padding="25.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/insta" android:layout_centerVertical="true" android:textAllCaps="true" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn7" android:tag="1080:1080" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img7" android:background="@drawable/ins_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/ip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn8" android:tag="1080:1350" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img8" android:background="@drawable/ins_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/ip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn9" android:tag="1080:566" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img9" android:background="@drawable/ins_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/ip" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/text_ratio" android:padding="25.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/youtube" android:layout_centerVertical="true" android:textAllCaps="true" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn10" android:tag="2560:1440" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img10" android:background="@drawable/you_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/youtubecover" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn11" android:tag="1280:720" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img11" android:background="@drawable/you_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/youtubethumbnail" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn12" android:tag="1855:423" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img12" android:background="@drawable/you_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/ytd" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/text_ratio" android:padding="25.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/twitter" android:layout_centerVertical="true" android:textAllCaps="true" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn13" android:tag="1500:500" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img13" android:background="@drawable/twi_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/tcover" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn14" android:tag="1024:512" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img14" android:background="@drawable/twi_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/tp" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn15" android:tag="200:200" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img15" android:background="@drawable/twi_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/tpi" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/text_ratio" android:padding="25.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/link" android:layout_centerVertical="true" android:textAllCaps="true" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn16" android:tag="1440:425" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img16" android:background="@drawable/link_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/lc" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn17" android:tag="646:220" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img17" android:background="@drawable/link_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/lb" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn18" android:tag="400:400" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img18" android:background="@drawable/link_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/linkedinp" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/text_ratio" android:padding="25.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/twitch" android:layout_centerVertical="true" android:textAllCaps="true" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn19" android:tag="900:480" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img19" android:background="@drawable/twitch_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/thcover" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn20" android:tag="1206:708" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img20" android:background="@drawable/twitch_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/tvi" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn21" android:tag="1600:1200" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img21" android:background="@drawable/twitch_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/tvi" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/text_ratio" android:padding="25.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/paper" android:layout_centerVertical="true" android:textAllCaps="true" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn22" android:tag="595:842" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img22" android:background="@drawable/paper_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/ap" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn23" android:tag="1654:2339" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img23" android:background="@drawable/paper_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/ap2" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn24" android:tag="2480:3508" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img24" android:background="@drawable/paper_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/ap3" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/text_ratio" android:padding="25.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/letter" android:layout_centerVertical="true" android:textAllCaps="true" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn25" android:tag="612:792" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img25" android:background="@drawable/letter_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/l" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn26" android:tag="1700:2200" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img26" android:background="@drawable/letter_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/l2" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn27" android:tag="2550:3300" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img27" android:background="@drawable/letter_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/l3" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/text_ratio" android:padding="25.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/txt_device" android:layout_centerVertical="true" android:textAllCaps="true" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn28" android:tag="1080:1920" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img28" android:background="@drawable/device_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/dwp" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn29" android:tag="1920:1080" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img29" android:background="@drawable/device_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/dwl" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            </LinearLayout>
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/text_ratio" android:padding="25.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/txt_desk" android:layout_centerVertical="true" android:textAllCaps="true" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn30" android:tag="1920:1080" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img30" android:background="@drawable/desk_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/dw" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn31" android:tag="1366:768" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img31" android:background="@drawable/desk_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/dw" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn32" android:tag="1280:800" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img32" android:background="@drawable/desk_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/dw" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/text_ratio" android:padding="25.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/logosize" android:layout_centerVertical="true" android:textAllCaps="true" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn33" android:tag="1080:1080" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img33" android:background="@drawable/logo_l_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/logo" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn34" android:tag="250:250" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img34" android:background="@drawable/logo_g_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/logo_go" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn35" android:tag="200:200" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img35" android:background="@drawable/logo_f_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/logo_fa" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn36" android:tag="400:400" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img36" android:background="@drawable/logo_t_4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/logo_tw" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn37" android:tag="300:300" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img37" android:background="@drawable/logo_li_5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/logo_li" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            </LinearLayout>
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/text_ratio" android:padding="25.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/txt_google" android:layout_centerVertical="true" android:textAllCaps="true" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn38" android:tag="1080:608" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img38" android:background="@drawable/google_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/gc" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn39" android:tag="968:545" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img39" android:background="@drawable/google_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/gcp" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn40" android:tag="250:250" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img40" android:background="@drawable/google_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/gpp" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/text_ratio" android:padding="25.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/tumbler" android:layout_centerVertical="true" android:textAllCaps="true" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn41" android:tag="540:810" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img41" android:background="@drawable/tumblr_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/tgraphics" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn42" android:tag="1280:1920" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img42" android:background="@drawable/tumblr_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/ti" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            </LinearLayout>
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/text_ratio" android:padding="25.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/pinterst" android:layout_centerVertical="true" android:textAllCaps="true" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn43" android:tag="735:600" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img43" android:background="@drawable/pinterest_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/printp" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn44" android:tag="222:150" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img44" android:background="@drawable/pinterest_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/pbd" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn45" android:tag="400:400" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img45" android:background="@drawable/pinterest_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/prinproi" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/text_ratio" android:padding="25.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/present" android:layout_centerVertical="true" android:textAllCaps="true" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn46" android:tag="1024:768" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img46" android:background="@drawable/present_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/p" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn47" android:tag="960:540" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img47" android:background="@drawable/present_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/p" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn48" android:tag="720:540" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img48" android:background="@drawable/present_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/p" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/text_ratio" android:padding="25.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/info" android:layout_centerVertical="true" android:textAllCaps="true" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn49" android:tag="800:2000" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img49" android:background="@drawable/info_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/i" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn50" android:tag="684:870" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img50" android:background="@drawable/info_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/ia" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn51" android:tag="663:800" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img51" android:background="@drawable/info_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/im" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@+id/size_btn52" android:tag="598:800" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.freethumbnailmaker.nowatermark.view.CustomSquareImageView
+                        android:id="@+id/img52" android:background="@drawable/info_4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/imo" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

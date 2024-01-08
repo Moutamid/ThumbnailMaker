@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@+id/loading_view" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ProgressBar android:id="@+id/progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <TextView android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ad Loding..." android:layout_below="@id/progress" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <com.facebook.ads.NativeAdLayout android:id="@+id/frameLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</FrameLayout>

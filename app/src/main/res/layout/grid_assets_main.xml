@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@color/color_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:id="@+id/layItem" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0sp" android:textColor="@color/black_50" android:gravity="center" android:id="@+id/grid_text" android:layout_width="fill_parent" android:layout_height="@dimen/_30sdp" android:layout_marginLeft="@dimen/_20sdp" android:text="Tap to Select font" android:lines="1" android:layout_toLeftOf="@id/txtDownloadFont" android:layout_centerVertical="true" />
+        <ImageView android:id="@+id/txtDownloadFont" android:padding="@dimen/_6sdp" android:layout_width="@dimen/_50sdp" android:layout_height="@dimen/_30sdp" android:src="@drawable/ic_download_sticker" android:layout_alignParentRight="true" />
+        <ProgressBar android:id="@+id/downloadProgress" android:visibility="gone" android:layout_width="@dimen/_25sdp" android:layout_height="@dimen/_25sdp" android:layout_marginRight="@dimen/_12sdp" android:layout_alignParentRight="true" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

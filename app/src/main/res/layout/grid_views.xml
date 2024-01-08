@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@+id/cv_image" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="?selectableItemBackground" app:cardBackgroundColor="@color/white" app:cardElevation="0.0dip" app:cardUseCompatPadding="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@+id/tvLable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Instagram " />
+    <ImageView android:id="@+id/img" android:visibility="visible" android:layout_width="@dimen/_150sdp" android:layout_height="@dimen/_150sdp" />
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_select_image"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/color_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_top"
+        android:layout_width="fill_parent"
+        android:layout_height="110.0dip"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="?actionBarSize"
+            android:background="@color/color_bg">
+
+            <ImageView
+                android:id="@+id/btn_back"
+                android:layout_width="?actionBarSize"
+                android:layout_height="?actionBarSize"
+                android:layout_alignParentLeft="true"
+                android:padding="19.0dip"
+                android:src="@drawable/btn_new_back" />
+
+            <TextView
+                android:id="@+id/txtTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/btn_back"
+                android:paddingLeft="5.0dip"
+                android:text="@string/txt_backgrounds"
+                android:textAllCaps="true"
+                android:textColor="@color/titlecolor"
+                android:textSize="@dimen/_15sdp" />
+
+            <TextView
+                android:id="@+id/textview_rat"
+                android:layout_width="130.0dip"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/_2sdp"
+                android:gravity="end"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="52.0dip">
+
+            <RelativeLayout
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="14.0dip"
+                android:layout_marginRight="6.0dip"
+                android:layout_marginBottom="2.0dip"
+                android:layout_weight="1.0"
+                android:padding="2.0dip">
+
+                <ImageView
+                    android:id="@+id/btnGalleryPicker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:src="@drawable/btn_gallery" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="6.0dip"
+                android:layout_marginRight="6.0dip"
+                android:layout_marginBottom="2.0dip"
+                android:layout_weight="1.0"
+                android:padding="2.0dip"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/btnTakePicture"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:src="@drawable/btn_camera" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="6.0dip"
+                android:layout_marginRight="14.0dip"
+                android:layout_marginBottom="2.0dip"
+                android:layout_weight="1.0"
+                android:padding="2.0dip">
+
+                <ImageView
+                    android:id="@+id/btnColorPicker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:src="@drawable/btn_color"
+                    android:visibility="visible" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_recycle"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/rl_ad"
+        android:layout_below="@id/ll_top">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <com.qintong.library.InsLoadingView
+                android:id="@+id/loading_view"
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="@dimen/_60sdp"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/ic_launcher_round"
+                app:end_color="#ffc60e0b"
+                app:start_color="@color/colorAccent" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/background_recyclerview"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerVertical="true" />
+
+            <FrameLayout
+                android:id="@+id/frameContainerBackground"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fragmen_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="?actionBarSize"
+        android:background="#3c000000"
+        android:visibility="gone" />
+</RelativeLayout>

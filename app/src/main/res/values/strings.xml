@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="admob_app_id">ca-app-pub-5055227510512491~1392737094</string>
+    <string name="admob_banner_id">ca-app-pub-5055227510512491/8888083732</string>
+    <string name="admob_inter_id">ca-app-pub-5055227510512491/5436773942</string>
+    <string name="admob_native_id">ca-app-pub-5055227510512491/3409376404</string>
+
+
+<!--    <string name="facebook_banner_id">IMG_16_9_APP_INSTALL#1156954457977643_1159359654403790</string>-->
+<!--    <string name="facebook_banner_native">IMG_16_9_APP_INSTALL#1156954457977643_1159359654403790</string>-->
+<!--    <string name="facebook_inter_id">IMG_16_9_APP_INSTALL#1156954457977643_1159359511070471</string>-->
+<!--    <string name="facebook_native_id">IMG_16_9_APP_INSTALL#1156954457977643_1156959601310462</string>-->
+
+
+    <string name="alert">Unsaved work.</string>
+    <string name="ap">A4-72dpi</string>
+    <string name="ap2">A4-200dpi</string>
+    <string name="ap3">A4-300dpi</string>
+
+    <string name="app_name">Thumbnail Maker</string>
+    <string name="auto">Auto</string>
+
+    <string name="camera">Camera</string>
+
+    <string name="create_dir_err">Cant create directory to save image.</string>
+    <string name="cut_inside">Cut Inside</string>
+    <string name="cut_outside">Cut Outside</string>
+    <string name="cut_photo">Select Photo</string>
+    <string name="del_error_toast">Error occured during deletion.</string>
+    <string name="drag_bw">Drag POINTER to restore image.</string>
+    <string name="drag_color">Drag POINTER to earse.</string>
+    <string name="dw">Wallpaper</string>
+    <string name="dwl">Wallpaper Landscape</string>
+    <string name="dwp">Wallpaper Portrait</string>
+    <string name="erase">Manual</string>
+    <string name="error">Error</string>
+    <string name="exit_cut_page">Do you want to exit without saving?</string>
+
+    <string name="facebook">Size For FB</string>
+    <string name="fadi">Ad Image</string>
+    <string name="fagcp">Group Cover Photo</string>
+    <string name="fai">App Image</string>
+    <string name="fapi">Profile Image</string>
+    <string name="fc">Cover</string>
+    <string name="fp">Post</string>
+    <string name="gc">Cover</string>
+    <string name="gcp">Cover Photo</string>
+    <string name="gpp">Profile Photo</string>
+    <string name="i">Infographic</string>
+    <string name="ia">Average</string>
+    <string name="icon_desc">Ad icon</string>
+    <string name="im">Medium</string>
+    <string name="image_desc">Ad image</string>
+    <string name="imo">Mode</string>
+    <string name="import_error">Error while getting image.</string>
+    <string name="import_img_warning">Please import image!!!</string>
+    <string name="importing_image">Importing image...</string>
+    <string name="in_app">Remove ads &amp; WaterMark</string>
+    <string name="info">Infographic</string>
+    <string name="ins_DesignOptionsInstruction">Long Press on your Design for Options.</string>
+    <string name="insta">Size For Insta</string>
+
+    <string name="ip">Post</string>
+    <string name="l">Letter-72dpi</string>
+    <string name="l2">Letter-200dpi</string>
+    <string name="l3">Letter-300dpi</string>
+    <string name="lasso">Extract</string>
+    <string name="lb">Banner</string>
+    <string name="lc">Cover</string>
+    <string name="letter">Letter</string>
+    <string name="link">Size For LinkedIn</string>
+    <string name="linkedinp">Profile</string>
+    <string name="logo">Logo</string>
+    <string name="logo_fa">Logo</string>
+    <string name="logo_go">Logo</string>
+    <string name="logo_li">Logo</string>
+    <string name="logo_tw">Logo</string>
+    <string name="logosize">Logo size</string>
+    <string name="memoryerror">Oops! something went wrong. Seems like you dont have enough space to save this picture. Please check your device internal memory and delete some data and then try again.</string>
+    <string name="msg_NoDesigns">No Design saved. Check out Free Designs Or Create Thumbnail and save as Design.</string>
+    <string name="msg_auto_btn">Click AUTO button to perform auto erase</string>
+    <string name="msg_bw_btn">Click RESTORE button to restore image</string>
+    <string name="msg_draw_lasso">Draw a closed path.</string>
+    <string name="msg_lasso_btn">Click EXTRACT button</string>
+    <string name="msg_manual_btn">Click MANUAL button to manually erase</string>
+    <string name="msg_up_arrow">Click UP arrow to get options</string>
+    <string name="msg_zoom_btn">Click ZOOM button to drag and zoom image.</string>
+
+    <string name="no">No</string>
+    <string name="no_layers">No Layers !!</string>
+    <string name="no_saved_pics">No saved pictures</string>
+    <string name="offset">Offset</string>
+    <string name="ok">OK</string>
+    <string name="p">Presentation</string>
+    <string name="paper">Paper</string>
+    <string name="pbd">Board Display</string>
+    <string name="picUpImg">select images</string>
+    <string name="pinterst">Pinterest</string>
+    <string name="plzwait">Please wait..</string>
+    <string name="present">Presentations</string>
+    <string name="prinproi">Profile Image</string>
+    <string name="printp">Pin</string>
+    <string name="radius">Size</string>
+    <string name="ratio">Select Ratio</string>
+    <string name="ratio_selection">Ratio</string>
+    <string name="redoing">Redoing</string>
+    <string name="restore">Restore</string>
+    <string name="save_err">Error while saving</string>
+    <string name="select_picture">Select picture using</string>
+    <string name="share_image">Share</string>
+    <string name="share_text">"I'm using amazing Thumbnail Maker! Get the free app at"</string>
+    <string name="size">Size</string>
+    <string name="sponsored">Sponsored</string>
+    <string name="storage">Storage</string>
+    <string name="strick_info">"
+ • For thumbnail size 1280x720 resolution
+ • JPG or PNG image formats
+ • Under the 2MB limit
+ • 16:9 aspect ratio"</string>
+    <string name="tcover">Cover</string>
+    <string name="template_error">no template found</string>
+    <string name="tgraphics">Graphic</string>
+    <string name="thcover">Cover</string>
+    <string name="threshold">Threshold</string>
+    <string name="ti">Image</string>
+    <string name="tp">Post</string>
+    <string name="tpi">Profile Image</string>
+    <string name="tumbler">Size For Tumblr</string>
+    <string name="tvi">Video Image</string>
+    <string name="twitch">Size For Twitch</string>
+    <string name="twitter">Size For Twitter</string>
+    <string name="txt_Outline">Outline</string>
+    <string name="txt_backgrounds">Background</string>
+    <string name="txt_colorOpacty">Colors and Opacity</string>
+    <string name="txt_conti">continue</string>
+    <string name="txt_controls">Controls</string>
+    <string name="txt_curve">Curve</string>
+    <string name="txt_desk">Desktop</string>
+    <string name="txt_device">Device</string>
+    <string name="txt_fonts">Fonts</string>
+    <string name="txt_google">cover</string>
+    <string name="txt_shadow">Shadow</string>
+    <string name="txt_spacing">Space</string>
+
+    <string name="undoing">Undoing</string>
+    <string name="watt">Wattpad Covers</string>
+    <string name="wattapad">Size For Wattpad Covers</string>
+    <string name="yes">Yes</string>
+    <string name="youtube">Size For Youtube</string>
+    <string name="youtubecover">Cover</string>
+    <string name="youtubethumbnail">Thumbnail</string>
+    <string name="ytd">Tablet Display</string>
+    <string name="zoom">Zoom</string>
+</resources>

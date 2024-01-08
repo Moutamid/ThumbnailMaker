@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="Progressbar.White" parent="@style/AppTheme">
+        <item name="colorControlActivated">@color/colorAccent</item>
+    </style>
+    <style name="MyDialogFadeAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="DialogAnimation_">
+        <item name="android:windowEnterAnimation">@anim/up_slide</item>
+        <item name="android:windowExitAnimation">@anim/bottom_slide</item>
+    </style>
+
+    <style name="ThemeWithCorners" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/rounded_layout</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+</resources>
