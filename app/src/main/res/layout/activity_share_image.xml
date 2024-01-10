@@ -11,16 +11,27 @@
     </RelativeLayout>
     <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/header">
         <LinearLayout android:id="@+id/imageLay" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/linearLayout2">
+
             <ImageView android:id="@+id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip" android:scaleType="fitCenter" />
+
         </LinearLayout>
+
         <LinearLayout android:orientation="vertical" android:id="@+id/linearLayout2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+
             <RelativeLayout android:id="@+id/btn_remowatermark" android:background="@drawable/btn_selecter" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/_40sdp" android:layout_marginLeft="@dimen/_20sdp" android:layout_marginRight="@dimen/_20sdp">
+
                 <TextView android:textSize="@dimen/_18sdp" android:textColor="@color/white" android:id="@+id/txt_remove" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Remove WaterMark" android:layout_centerInParent="true" />
+
             </RelativeLayout>
+
             <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_10sdp">
+
                 <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+
                     <ImageView android:id="@+id/btnShareFacebook" android:layout_width="@dimen/_40sdp" android:layout_height="@dimen/_40sdp" android:src="@drawable/ic_share_facebook" />
+
                 </LinearLayout>
+
                 <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
                     <ImageView android:id="@+id/btnShareIntagram" android:layout_width="@dimen/_40sdp" android:layout_height="@dimen/_40sdp" android:src="@drawable/ic_share_instagram" />
                 </LinearLayout>

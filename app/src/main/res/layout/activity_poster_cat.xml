@@ -15,6 +15,7 @@
         card_view:end_color="#ffc60e0b"
         card_view:start_color="@color/colorAccent" />
 
+
     <RelativeLayout
         android:id="@+id/header"
         android:layout_width="fill_parent"
