@@ -5,10 +5,11 @@
 
     <color name="artworkbg">#ffced2da</color>
 
-    <color name="black">#ff000000</color>
-    <color name="black_50">#ffffffff</color>
+    <color name="black">#000000</color>
+    <color name="black_50">#CED9DC</color>
     <color name="black_transparent">#4b000000</color>
     <color name="blackcolor">#ffffffff</color>
+    <color name="appcolor">#C70018</color>
 
 
     <color name="colorAccent">#ff0c73ee</color>
@@ -16,7 +17,7 @@
     <color name="colorPrimaryDark">#ff212029</color>
     <color name="color_add_btn">#ff0c73ee</color>
     <color name="color_bar">#ff2f2d3a</color>
-    <color name="color_bg">#ff212029</color>
+    <color name="color_bg">#fff</color>
     <color name="color_text_onseek">#ff9ba8bb</color>
     <color name="color_white">#ffffffff</color>
 
@@ -45,4 +46,27 @@
     <color name="text_second">#ff888893</color>
     <color name="rainbow_yellow">#ffffef00</color>
     <color name="colorLogo">#fff22b24</color>
+
+         <color name="orangepm">#A46AFA</color>
+        <color name="black_translucent">#50000000</color>
+        <color name="borderColor">#b0b4b9</color>
+        <color name="color_white_color">#ffffffff</color>
+        <color name="seekbargray">#ff838383</color>
+        <color name="trans">#00000000</color>
+        <color name="whiteColor">#ffffff</color>
+        <color name="waveform_unselected">#535353</color>
+        <color name="waveform_unselected_bkgnd_overlay">#ffd6d7d7</color>
+        <color name="selection_border">#ffffff</color>
+        <color name="playback_indicator">#ffff66</color>
+        <color name="timecode">#000000</color>
+        <color name="timecode_shadow">#aa000000</color>
+        //added
+        <color name="red">#F44336</color>
+        <color name="gifbg">#070B1F</color>
+        //Black Colors
+        <color name="black90">#E6000000</color>
+        //White Colors
+        <color name="white50">#80FFFFFF</color>
+        //Other colors
+
 </resources>

@@ -14,9 +14,18 @@
         <FrameLayout
             android:id="@+id/frameLayout"
             android:layout_width="fill_parent"
-            android:layout_height="120dp"
+            android:layout_height="100dp"
             android:backgroundTint="#fff"
-            android:background="@drawable/card_bg_clean" />
+            android:background="@drawable/card_bg_clean" >
+
+            <ImageView
+                android:layout_width="60dp"
+                android:src="@drawable/success"
+                android:layout_gravity="center"
+
+                android:layout_height="60dp"
+                android:layout_centerInParent="true" />
+        </FrameLayout>
 
         <RelativeLayout
             android:id="@+id/rv_lay"
@@ -38,6 +47,7 @@
 
             <LinearLayout
                 android:layout_width="fill_parent"
+
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:orientation="vertical">
@@ -45,7 +55,7 @@
                 <View
                     android:layout_width="fill_parent"
                     android:layout_height="1.0dip"
-                    android:background="@color/color_bar" />
+                    android:background="@color/appcolor" />
 
                 <TextView
                     android:id="@+id/txterorr"
@@ -53,7 +63,10 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="@dimen/_3sdp"
                     android:text="Thumbnail Saved Successfully."
-                    android:textColor="@color/titlecolor"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:fontFamily="@font/comfortaa"
+                    android:textStyle="bold"
                     android:textSize="@dimen/_15sdp" />
             </LinearLayout>
 
@@ -74,7 +87,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="@dimen/_40sdp"
                 android:layout_marginLeft="20.0dip"
-                android:layout_marginTop="5.0dip"
+                android:layout_marginTop="15.0dip"
                 android:layout_marginRight="20.0dip"
                 android:gravity="center|left"
                 android:orientation="horizontal">
@@ -96,13 +109,14 @@
                 <Button
                     android:id="@+id/btn_no"
                     android:layout_width="fill_parent"
-                    android:layout_height="@dimen/_30sdp"
+                    android:layout_height="@dimen/_40sdp"
                     android:layout_alignParentRight="true"
                     android:layout_marginLeft="5.0dip"
                     android:layout_marginRight="5.0dip"
                     android:layout_weight="1.0"
                     android:background="@drawable/rounded_button_ok"
                     android:text="View Thumbnail"
+                    android:backgroundTint="@color/appcolor"
                     android:textColor="@color/white"
                     android:textSize="@dimen/_12sdp" />
             </LinearLayout>

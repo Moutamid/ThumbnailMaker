@@ -8,7 +8,7 @@
     </style>
 
     <style name="Progressbar.White" parent="@style/AppTheme">
-        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="colorControlActivated">@color/white</item>
     </style>
     <style name="MyDialogFadeAnimation">
         <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
